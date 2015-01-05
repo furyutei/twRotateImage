@@ -1,9 +1,12 @@
 // ==UserScript==
-// @name           twRotateImage
-// @namespace      http://d.hatena.ne.jp/furyu-tei
-// @include        http://twitter.com/*
-// @include        https://twitter.com/*
-// @description    Rotate image on Twitter. (version 0.1.0.0)
+// @name            twRotateImage
+// @namespace       http://d.hatena.ne.jp/furyu-tei
+// @author          furyu
+// @version         0.1.0.1
+// @include         http://twitter.com/*
+// @include         https://twitter.com/*
+// @exclude         https://twitter.com/i/*
+// @description     Rotate image on Twitter.
 // ==/UserScript==
 /*
 The MIT License (MIT)
