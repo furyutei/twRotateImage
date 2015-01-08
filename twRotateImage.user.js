@@ -2,10 +2,9 @@
 // @name            twRotateImage
 // @namespace       http://d.hatena.ne.jp/furyu-tei
 // @author          furyu
-// @version         0.1.0.1
+// @version         0.1.0.2
 // @include         http://twitter.com/*
 // @include         https://twitter.com/*
-// @exclude         https://twitter.com/i/*
 // @description     Rotate image on Twitter.
 // ==/UserScript==
 /*
@@ -33,6 +32,8 @@ THE SOFTWARE.
 */
 
 (function(w, d){
+
+if (w !== w.parent) return;
 
 var main = function(w, d){
 
